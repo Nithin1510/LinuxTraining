@@ -1,0 +1,46 @@
+..:
+total 67
+-rw-r--r-- 1 cheepati.reddy 1049089    78 Mar 25 10:37 check.txt
+drwxr-xr-x 1 cheepati.reddy 1049089     0 Mar 25 16:37 demos/
+drwxr-xr-x 1 cheepati.reddy 1049089     0 Mar 25 10:31 my apps/
+-rw-r--r-- 1 cheepati.reddy 1049089 64010 Mar 25 15:02 practice-1.txt
+drwxr-xr-x 1 cheepati.reddy 1049089     0 Mar 25 14:00 programs/
+-rw-r--r-- 1 cheepati.reddy 1049089     0 Mar 25 15:11 test6.txt
+drwxr-xr-x 1 cheepati.reddy 1049089     0 Mar 25 12:56 training/
+-rw-r--r-- 1 cheepati.reddy 1049089    78 Mar 25 12:57 trial.txt
+-rw-r--r-- 1 cheepati.reddy 1049089   508 Mar 25 12:11 trial1.txt
+
+../demos:
+total 2
+-rw-r--r-- 1 cheepati.reddy 1049089   0 Mar 25 16:37 details.txt
+drwxr-xr-x 1 cheepati.reddy 1049089   0 Mar 25 10:26 examples/
+-rw-r--r-- 1 cheepati.reddy 1049089  22 Mar 25 15:51 test2.txt
+drwxr-xr-x 1 cheepati.reddy 1049089   0 Mar 25 14:00 trial/
+-rw-r--r-- 1 cheepati.reddy 1049089 154 Mar 25 15:35 trial1.txt
+
+../demos/examples:
+total 0
+drwxr-xr-x 1 cheepati.reddy 1049089 0 Mar 25 10:26 trial/
+
+../demos/examples/trial:
+total 0
+
+../demos/trial:
+total 0
+
+../my apps:
+total 0
+
+../programs:
+total 0
+drwxr-xr-x 1 cheepati.reddy 1049089 0 Mar 25 14:00 trial/
+
+../programs/trial:
+total 0
+
+../training:
+total 0
+drwxr-xr-x 1 cheepati.reddy 1049089 0 Mar 25 10:29 spring/
+
+../training/spring:
+total 0

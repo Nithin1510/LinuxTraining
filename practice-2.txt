@@ -1,0 +1,395 @@
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ls
+ check.txt     error.txt        programs/   trial.txt
+ demos/       'my apps'/        test6.txt   trial1.txt
+ details.txt   practice-1.txt   training/
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ cat details.txt
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ pid bash
+bash: pid: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ vanish
+bash: vanish: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ vanish pid
+bash: vanish: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date
+Mon Mar 25 16:57:48 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ day
+bash: day: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --yesterday
+date: unknown option -- yesterday
+Try 'date --help' for more information.
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ time
+
+real    0m0.002s
+user    0m0.000s
+sys     0m0.000s
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="yesterday"
+Sun Mar 24 16:58:58 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="10 days ago"
+Fri Mar 15 16:59:15 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="1 month ago"
+Sun Feb 25 16:59:27 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="1 year ago"
+Sat Mar 25 16:59:33 IST 2023
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="tommorow"
+date: invalid date ‘tommorow’
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="tomorrow"
+Tue Mar 26 17:00:19 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ day  --date="tomorrow"
+bash: day: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="tomorrow"
+Tue Mar 26 17:00:45 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ date  --date="1 year after"
+date: invalid date ‘1 year after’
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ps
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+      689      81     689       7536  pty0     1067586 17:03:36 /usr/bin/ps
+       80       1      80       9620  ?        1067586 14:52:21 /usr/bin/mintty
+       81      80      81       1536  pty0     1067586 14:52:22 /usr/bin/bash
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ps -ef
+     UID     PID    PPID  TTY        STIME COMMAND
+cheepati      80       1 ?        14:52:21 /usr/bin/mintty
+cheepati     693      81 pty0     10:00:34 /usr/bin/ps
+cheepati      81      80 pty0     14:52:22 /usr/bin/bash
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ps -u cheepati.reddy
+      PID    PPID    PGID     WINPID   TTY         UID    STIME COMMAND
+       80       1      80       9620  ?        1067586 14:52:21 /usr/bin/mintty
+       81      80      81       1536  pty0     1067586 14:52:22 /usr/bin/bash
+      697      81     697      13716  pty0     1067586 10:01:02 /usr/bin/ps
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ cat /etc/shells
+cat: /etc/shells: No such file or directory
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ which bash
+/usr/bin/bash
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ read username
+Nithin
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ echo username
+username
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ echo "Hilton"
+Hilton
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ echo "Hi nithin"
+Hi nithin
+
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ pwd
+/c/Users/cheepati.reddy/Training/LinuxTraining
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo.sh
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo.sh
+Enter username
+Kumar
+Welcome username
+cheepati.reddy
+/c/Users/cheepati.reddy/Training/LinuxTraining
+Tue Mar 26 10:18:25 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ls -l demo.sh
+-rw-r--r-- 1 cheepati.reddy 1049089 76 Mar 26 10:18 demo.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo.sh
+Enter username
+Nithin
+Welcome username
+cheepati.reddy
+/c/Users/cheepati.reddy/Training/LinuxTraining
+Tue Mar 26 10:20:26 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo.sh
+Enter username
+Nithin
+Welcome + username
+cheepati.reddy
+/c/Users/cheepati.reddy/Training/LinuxTraining
+Tue Mar 26 10:20:56 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo1.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo.sh
+Enter username
+Nithin
+Welcome Nithin
+cheepati.reddy
+/c/Users/cheepati.reddy/Training/LinuxTraining
+Tue Mar 26 10:24:33 IST 2024
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo1.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo1.sh
+Welcome  Nithin
+cat: training/details.txt: No such file or directory
+total 0
+drwxr-xr-x 1 cheepati.reddy 1049089 0 Mar 25 10:29 spring
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo1.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo1.sh
+Welcome  Nithin
+cat: LinuxTraining/details.txt: No such file or directory
+total 0
+drwxr-xr-x 1 cheepati.reddy 1049089 0 Mar 25 10:29 spring
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo1.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo1.sh
+Welcome  Nithin
+cat: Training/LinuxTraining/details.txt: No such file or directory
+total 0
+drwxr-xr-x 1 cheepati.reddy 1049089 0 Mar 25 10:29 spring
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+./demo2.sh: line 1: NAME: command not found
+WELcOME
+./demo2.sh: line 3: NUM1: command not found
+./demo2.sh: line 4: NUM2: command not found
+./demo2.sh: line 6: +: command not found
+./demo2.sh: line 6: val: command not found
+= Total ,
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+./demo2.sh: line 6: 100+200: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+./demo2.sh: line 6: 100+200: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+./demo2.sh: line 6: 100+200: command not found
+
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo3.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo3.sh
+Welcome 0
+Welcome 1
+Welcome 2
+Welcome 3
+Welcome 4
+Welcome 5
+Welcome 6
+Welcome 7
+Welcome 8
+Welcome 9
+Ram
+Raj
+Rahul
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo3.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+./demo2.sh: line 6: 100+200: command not found
+
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+./demo2.sh: line 6: 100+200: command not found
+
+sum: '=': No such file or directory
+sum: 100+200: No such file or directory
+./demo2.sh: line 10: exho: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+100+200
+sum: '=': No such file or directory
+sum: 100+200: No such file or directory
+./demo2.sh: line 10: exho: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+100+200
+./demo2.sh: line 10: exho: command not found
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+100+200
+100+200
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+100+200
+100+200
+300
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo2.sh
+WELcOME NITHIN
+100+200
+./demo2.sh: line 8: expr 100+200: syntax error in expression (error token is "100+200")
+
+300
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo2.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo4.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo4.sh
+945
+file name:./demo4.sh
+fname :
+lastname :
+total parameters : 0
+Takes all command line arguments as one argument
+Takes entirelist and split into separate arguments :
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ nano demo4.sh
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo4.sh
+953
+file name:./demo4.sh
+fname :
+lastname :
+total parameters : 0
+Takes all command line arguments as one argument
+Takes entirelist and split into separate arguments :
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ./demo4.sh Nithin Kumar
+957
+file name:./demo4.sh
+fname : Nithin
+lastname : Kumar
+total parameters : 2
+Takes all command line arguments as one argument Nithin Kumar
+Takes entirelist and split into separate arguments : Nithin Kumar
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$ ^C
+
+cheepati.reddy@BLD8CC9331MXK MINGW64 ~/Training/LinuxTraining
+$
